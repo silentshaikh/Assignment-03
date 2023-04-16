@@ -73,7 +73,6 @@
             movBox.appendChild(movBox2);
             movBox2.appendChild(movHead)
             movBox2.appendChild(movPara)
-            let table = document.getElementById('table');
             let rowMov = table.insertRow();
             let rank = rowMov.insertCell(0);
             let movie = rowMov.insertCell(1);
