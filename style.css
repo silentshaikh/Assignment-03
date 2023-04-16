@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.movie-head{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 2.4rem;
+   text-decoration: underline;
+   font-style: italic;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 40px;
+}
+.col-1{
+    padding: 20px;
+}
+.col-1 h5{
+    font-size: 1.3rem;
+}
+.inp-movie{
+    padding: 10px 40px;
+    outline: none;
+    border: 2px dashed #515151;
+}
+.inp-movie::placeholder{
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+.col-r{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.col-r h5{
+    font-size: 1.3rem;
+}
+.inp-r{
+    width: 50vw;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px dashed #515151;
+}
+.inp-r::placeholder{
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+.tab-container{
+    padding-top: 50px;
+}
+
+.rank {
+    position: absolute;
+    left: 100px;
+    font-size: 1.4rem;
+    
+}
+.mov{
+    position: absolute;
+    left: 300px;
+    font-size: 1.4rem;
+    
+}
+.yea{
+    position: relative;
+    left: 450px;
+    font-size: 1.4rem;
+    
+}
+.mov-btn{
+ margin-top: 15px;
+ margin-left: 45%;
+ padding: 15px 25px;
+ background-color: aqua;
+ border: none;
+ border-radius:10px ;
+ color: #fff;
+ font-size: 1rem;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+
+.results{
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+.results table{
+    width: 85vw;
+    margin: 0 auto;
+border-top: 1px solid black;
+}
+
+.results table th{
+    text-transform: uppercase;
+}
+.results table tr{
+    border-bottom: 1px solid black;
+}
+
+.results table th,td{
+    text-align: center;
+}
+ .tab{
+    display: flex;
+    text-align: center;
+}
+.tab2{
+   
+    display: flex;
+    justify-content:center ;
+  
+    flex-direction: column;
+    padding: 13px;
+} 
+.cer{
+    border-radius: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+.mov{
+    /* width: 8vw; */
+    text-align: left;
+}

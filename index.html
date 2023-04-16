@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Movie App</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="./download.jpg" type="image/x-icon">
+    </head>
+    <body>
+        <h1 class="movie-head">Our Movie App</h1>
+        <main>
+            <section >
+                <div class="col-1">
+                    <h4>Genre:</h4> 
+                    <select class="inp-movie" id="genre">
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <div class="col-1">
+                    <h4>Year:</h4> 
+                    <select class="inp-movie" id="year">
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <div class="col-1">
+                    <h4>Language:</h4> 
+                    <select  class="inp-movie" id="lang">
+                        <option value="All">All</option>
+                    </select>
+                </div>  
+                <div class="col-r">
+                    <h4>Rating:</h4> 
+                    <select class="inp-r" id="rate">
+                        <option value="All">All</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <div class="results">
+                 
+               
+               <table id="table">
+                   <thead>
+                       <tr>
+                           <th class="rank">Rank</th>
+                           <th class="mov">Movie</th>
+                           <th class="yea">Year</th>
+                       </tr>
+                   </thead>
+               </table>
+           </div> 
+           </section>
+        </main>
+      
+
+
+        <script src="./app.js" ></script>
+    </body>
+</html>
